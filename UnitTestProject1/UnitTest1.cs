@@ -141,11 +141,11 @@ namespace UnitTestProject1
         public void TestMethod5Zadanie3()
         {// нулевыми строками:
             int[,] matrix = { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } };
-            int[] expected = { 3, 3, 3 };
+            int[] expected = { 3, 3, 3 };  
             int[] actual = Class1.Zadanie3(matrix);
             CollectionAssert.AreEqual(expected, actual);
         }
     }
 }
 
-
+ 

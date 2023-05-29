@@ -78,7 +78,7 @@ namespace ClassLibrary1
                 if (matrix[row, j] > sum)
                 {
                     elements[count] = matrix[row, j];
-                    count++;
+                    count++; 
                 }
             }
 
